@@ -1,0 +1,95 @@
+.image-style {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 270px;
+  height: 90px;
+  left: 50px;
+  top: 50px;
+  border-radius: 20px;
+}
+
+.logo-button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Home {
+  /* Home */
+
+  position: absolute;
+  width: 148px;
+  height: 57px;
+  left: 980px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 56px;
+  cursor: pointer;
+  /* or 233% */
+  color: white;
+  cursor: pointer;
+}
+
+.About {
+  /* About */
+  position: absolute;
+  width: 148px;
+  height: 57px;
+  left: 1100px;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 56px;
+  /* or 233% */
+  color: white;
+  cursor: pointer;
+}
+
+.home-and-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Header {
+  /* Rectangle 6 */
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #073865;
+  mix-blend-mode: plus-darker;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-heading {
+  /* COVID-19 */
+  position: absolute;
+  width: 295px;
+  height: 56px;
+  left: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  color: #1656fa;
+  cursor: pointer;
+}
+
+.span-element-1 {
+  color: red;
+}
+.span-element-2 {
+  color: white;
+}
